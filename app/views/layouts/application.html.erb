@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>sample</title>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%= javascript_pack_tag 'application' %>
+</head>
+  <body>
+  <header>
+    <ul>
+      <li><a href="#">My Page</a></li>
+      <li><a href="#">TOP</a></li>
+    </ul>
+  </header>
+  <%= yield %>
+  <footer>
+    <p>Sumiko SAITO</p>
+    <p>© 2020 Sumiko Corp.</p>
+  </footer>
+</body>
+</html>
